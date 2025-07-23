@@ -2,11 +2,10 @@
 	"name": "starwarsd6-essentialcompanion-od6s",
 	"title": "The Essential Companion to Star Wars D6 on OpenD6 Space",
 	"description": "A collection of Star Wars Roleplaying Game content to facilitate turning an OpenD6 Space game into a Star Wars D6 game.",
-	"version": "12.0.2",
+	"version": "13.0.0",
   	"compatibility": {
-    		"minimum": "10",
-    		"verified": "12.330",
-		"maximum": "12"
+    		"minimum": "13",
+    		"verified": "13"
   	},
 	"authors": [
           {
@@ -20,8 +19,8 @@
               "type": "system",
               "compatibility": [
                 {
-                  "minimum": "0.7.13",
-                  "verified": "0.7.13"
+                  "minimum": "0.8.0",
+                  "verified": "0.8.0"
                 }
               ]
             }
@@ -35,89 +34,77 @@
 	"packs": [{
 			"name": "module-reupskills",
 			"label": "Star Wars D6 Skills",
-			"path": "./packs/reupskills.db",
-			"entity": "Item",
+			"path": "./packs/reupskills",
 			"type": "Item"
 		},
 		{
 			"name": "module-advskills",
 			"label": "Star Wars D6 Advanced Skills",
-			"path": "./packs/advskills.db",
-			"entity": "Item",
+			"path": "./packs/advskills",
 			"type": "Item"
 		}, 
 		{	
 			"name": "module-forcepow",
 			"label": "Star Wars D6 Force Powers",
-			"path": "./packs/reuppowers.db",
-			"entity": "Item",
+			"path": "./packs/reuppowers",
 			"type": "Item"
 		},
 		{	
 			"name": "module-weaps",
 			"label": "Star Wars D6 Weapons",
-			"path": "./packs/reupweaps.db",
-			"entity": "Item",
+			"path": "./packs/reupweaps",
 			"type": "Item"
 		},
 		{	
 			"name": "module-equip",
 			"label": "Star Wars D6 Personal Equipment",
-			"path": "./packs/reupgear.db",
-			"entity": "Item",
+			"path": "./packs/reupgear",
 			"type": "Item"
 		},
 		{	
 			"name": "module-bmacros",
 			"label": "Star Wars Macros",
-			"path": "./packs/banjomacros.db",
-			"entity": "Macro",
+			"path": "./packs/banjomacros",
 			"type": "Macro"
 		},
 		{	
 			"name": "module-commodity",
 			"label": "Star Wars General Goods",
-			"path": "./packs/reupcommodity.db",
-			"entity": "Item",
+			"path": "./packs/reupcommodity",
 			"type": "Item"
 		},
 		{	
 			"name": "module-gamemasterchars",
 			"label": "Star Wars D6 Gamemaster Characters",
-			"path": "./packs/reupgmpc.db",
-			"entity": "Actor",
+			"path": "./packs/reupgmpc",
 			"type": "Actor"
 		},
 		{	
 			"name": "module-starfs",
 			"label": "Star Wars D6 Starfighters",
-			"path": "./packs/reupstarfighter.db",
-			"entity": "Actor",
+			"path": "./packs/reupstarfighter",
 			"type": "Actor"
 		},
 		{	
 			"name": "module-d6htemplates",
 			"label": "Star Wars D6 Character Templates",
-			"path": "./packs/d6htemplates.db",
-			"entity": "Item",
+			"path": "./packs/d6htemplates",
 			"type": "Item"
 		},
 		{	
 			"name": "module-d6sptemplates",
 			"label": "Star Wars D6 Species Templates (In-Progress)",
-			"path": "./packs/d6sptemplates.db",
-			"entity": "Item",
+			"path": "./packs/d6sptemplates",
 			"type": "Item"
 		},		
 		{
 			"name": "module-d6hitems",
 			"label": "Support Items for Templates",
-			"path": "./packs/d6templateitems.db",
-			"entity": "Item",
+			"path": "./packs/d6templateitems",
 			"type": "Item"
 		}
 	],
-	"url" : "https://github.com/DarthBanjo/starwarsd6-essentialcompanion-od6s",
-	"manifest": "https://raw.githubusercontent.com/DarthBanjo/starwarsd6-essentialcompanion-od6s/main/module.json",
-	"download": "https://github.com/DarthBanjo/starwarsd6-essentialcompanion-od6s/archive/refs/heads/main.zip"
+	"url" : "https://github.com/zeshanrajput/starwarsd6-essentialcompanion-od6s",
+	"manifest": "https://raw.githubusercontent.com/zeshanrajput/starwarsd6-essentialcompanion-od6s/v13-update/module.json",
+	"download": "https://github.com/zeshanrajput/starwarsd6-essentialcompanion-od6s/archive/refs/heads/v13-update.zip"
 }
